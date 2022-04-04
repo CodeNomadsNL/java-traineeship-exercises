@@ -8,7 +8,7 @@ public class Arrays02AverageLap {
         int[] lapTimes = new int[] {48, 49, 47, 46, 46, 49, 51, 55, 58};
         int averageTime = 0;
 
-        // Uncomment and complete this declaration to create a String array of 3 elements
+        // Uncomment this line when you have implemented calculateAverageLap
         //averageTime = calculateAverageLap(lapTimes, 9);
 
 
