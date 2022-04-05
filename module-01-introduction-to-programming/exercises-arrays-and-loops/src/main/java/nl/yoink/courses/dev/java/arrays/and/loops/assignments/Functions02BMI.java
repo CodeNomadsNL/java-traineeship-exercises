@@ -6,10 +6,10 @@ public class Functions02BMI {
     public static void main(String[] args) {
 
         double myMassInKg = 99;
-        double myHeightInCm = 1.87;
+        double myHeightInM = 1.87;
 
-        System.out.println("BMI of person with mass " + myMassInKg + "kg and height " + myHeightInCm + "cm is: " +
-                bmi(myMassInKg, myHeightInCm));
+        System.out.println("BMI of person with mass " + myMassInKg + "kg and height " + myHeightInM + "cm is: " +
+                bmi(myMassInKg, myHeightInM));
 
     }
 

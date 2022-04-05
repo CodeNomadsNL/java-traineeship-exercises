@@ -6,10 +6,10 @@ public class Functions04BMI {
     public static void main(String[] args) {
 
         double myMassInKg = 99;
-        double myHeightInCm = 1.87;
-        double subjectBmi = bmi(myMassInKg, myHeightInCm);
+        double myHeightInM = 1.87;
+        double subjectBmi = bmi(myMassInKg, myHeightInM);
 
-        System.out.println("BMI of person with mass " + myMassInKg + "kg and height " + myHeightInCm + "cm is: " +
+        System.out.println("BMI of person with mass " + myMassInKg + "kg and height " + myHeightInM + "cm is: " +
                 subjectBmi);
         System.out.println("Insult generated: " + insult(subjectBmi));
     }
