@@ -1,6 +1,6 @@
-package nl.yoink.courses.dev.java.arrays.and.loops.assignments;
+package nl.yoink.courses.dev.java.arrays.and.loops.assignments.objects;
 
-public class Arrays02AverageLap {
+public class Objects03AverageLapRevisited {
 
     // Write the average lap function below before running this assignment
     public static void main(String[] args) {
@@ -9,15 +9,15 @@ public class Arrays02AverageLap {
         int averageTime = 0;
 
         // Uncomment this line when you have implemented calculateAverageLap
-        //averageTime = calculateAverageLap(lapTimes, 9);
+        //averageTime = calculateAverageLap(lapTimes);
 
 
         System.out.println("Average lap time was: " + averageTime);
 
     }
 
-    // Write the average lap function here:
-    // ... calculateAverageLap(???, ???) {
+    // Write the average lap function here, using a while loop and the `lapTimes.length` property.
+    // ... calculateAverageLap(???) {
 
 
 

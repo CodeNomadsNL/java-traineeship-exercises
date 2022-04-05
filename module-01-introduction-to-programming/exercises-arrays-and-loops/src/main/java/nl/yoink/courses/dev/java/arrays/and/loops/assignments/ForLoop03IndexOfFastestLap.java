@@ -1,24 +1,24 @@
 package nl.yoink.courses.dev.java.arrays.and.loops.assignments;
 
-public class Arrays04IndexOfFastestLap {
+public class ForLoop03IndexOfFastestLap {
 
     // Write the fastest lap function below before running this assignment
     public static void main(String[] args) {
 
-        int[] lapTimes = new int[] {48, 49, 47, 46, 46, 49, 51, 55, 58};
+        int[] lapTimes = new int[] {61, 59, 67, 72, 68, 69};
         // We start the value of the fastestLapIndex at -1, any idea why it's not 0?
         int fastestLapIndex = -1;
 
         // Uncomment this line when you have implemented findFastestLapIndex
-        //fastestLapIndex = findFastestLapIndex(lapTimes, 9);
+        //fastestLapIndex = findFastestLapIndex(lapTimes);
 
 
         System.out.println("Fastest lap time was: " + fastestLapIndex);
 
     }
 
-    // Write the fastest lap function here:
-    // ... findFastestLapIndex(???, ???) {
+    // Can you write the findFastestLapIndex function here, using a for loop?
+    // ... findFastestLapIndex(???) {
 
 
 
