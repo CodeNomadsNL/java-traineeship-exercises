@@ -1,4 +1,3 @@
-
 create table if not exists people (
                                       id INT,
                                       first_name VARCHAR(50),
@@ -9,7 +8,7 @@ create table if not exists people (
                                       ip_address VARCHAR(20),
                                       ssn VARCHAR(50)
 );
-ALTER TABLE people ADD CONSTRAINT people_pk PRIMARY KEY (id)
+ALTER TABLE people ADD CONSTRAINT people_pk PRIMARY KEY (id);
 
 CREATE TABLE orders(
                        order_id serial primary key,
@@ -636,6 +635,7 @@ insert into orders (order_id, product_name, person_id) values (613, 'Sauce - Dem
 insert into orders (order_id, product_name, person_id) values (614, 'Flax Seed', 84);
 insert into orders (order_id, product_name, person_id) values (615, 'Cheese Cheddar Processed', 1);
 insert into orders (order_id, product_name, person_id) values (616, 'Pail With Metal Handle 16l White', 781);
+
 insert into orders (order_id, product_name, person_id) values (618, 'Roe - Lump Fish, Red', 458);
 insert into orders (order_id, product_name, person_id) values (619, 'Bagel - Ched Chs Presliced', 573);
 insert into orders (order_id, product_name, person_id) values (620, 'Cream - 18%', 744);
