@@ -11,7 +11,7 @@ public class ArraysSolution05DecrementLaps {
         System.out.println("Original times: " + Arrays.toString(lapTimes));
 
         // Uncomment this line when you have implemented decrementLaps
-        //decrementLaps(lapTimes, 9);
+        decrementLaps(lapTimes, 9);
 
         System.out.println("Updated times:  " + Arrays.toString(lapTimes));
 
@@ -23,7 +23,7 @@ public class ArraysSolution05DecrementLaps {
 
         while (counter < size) {
             laps[counter] = laps[counter] - 1;
-            counter = counter - 1;
+            counter = counter + 1;
         }
     }
 }
