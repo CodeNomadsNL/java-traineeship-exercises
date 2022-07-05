@@ -21,7 +21,7 @@ public class FunctionsSolution01MinMax {
      * @return the largest of the two numbers
      */
     public static double max(double a, double b) {
-        if (a > b) {
+        if (a < b) {
             return b;
         }
         // Note that here is no 'else' here. Since the 'if'-block contains a return, anything after the if is
